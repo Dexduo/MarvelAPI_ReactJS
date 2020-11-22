@@ -7,5 +7,7 @@
 
 ## Instalação
     - Clone o projeto e dentro da pasta no terminal execute "npm i", após finalizar execute "npm start".
+    
+![Captura de tela de 2020-11-22 15-50-02](https://user-images.githubusercontent.com/39107930/99914190-73123d80-2cda-11eb-9ee4-427e001cdde4.png)
 
 **@Dexduo**
