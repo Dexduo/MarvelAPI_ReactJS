@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+
+import Header from './components/header'
+import Characters from './components/charactersList'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    //O HEADER É ONDE FICA O "TITULO" DA MARVEL
+    //O CHARACTERS É ONDE FICAM AS BOXS QUE SÃO OS PERSONAGENS COM IMAGEM E NOME
+    <div>
+      <Header />
+      <Characters />
     </div>
-  );
+  )
 }
 
 export default App;

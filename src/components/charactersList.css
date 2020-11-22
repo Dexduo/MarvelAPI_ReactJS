@@ -1,0 +1,41 @@
+.charslist {
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.charslist .char {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient( rgb(20, 20, 20), rgb(40, 40, 40));
+    border-radius: 15px;
+    opacity: 0.5;
+}
+
+.charslist .char img {
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.charslist .char p {
+    color: #BEBEBE;
+    font-size: 1.2em;
+}
+
+.charslist .char:hover {
+    box-shadow: -12px 12px 5px rgba(20, 20, 20, 0.5);
+    width: 310px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    opacity: 1;
+    transition: all 0.5s;
+}
